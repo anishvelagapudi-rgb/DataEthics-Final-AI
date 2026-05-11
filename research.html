@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Brief — [APP NAME]</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">[APP NAME]</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="ethics.html">Ethics</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <div class="hero-badge">Research Brief</div>
+    <h1>The Case for [APP NAME]</h1>
+    <p>Anish Velagapudi &bull; Kenan Snider &bull; Baylee Varnell &bull; Gina Byon</p>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <div class="research-content">
+
+        <h2>Statement of the Problem</h2>
+        <p>
+          Misinformation today rarely takes the form of outright lies — it hides in the
+          architecture of how information is presented. A bar graph with a manipulated
+          baseline, a headline missing critical context, or a statistic cited without its
+          denominator can shape public opinion just as powerfully as fabricated news, yet
+          none of these techniques constitute a factual falsehood that traditional
+          fact-checkers are designed to catch.
+        </p>
+        <p>
+          According to a <a href="https://news.gallup.com/poll/510814/media-confidence-remains-historical-low.aspx" target="_blank">2024 Gallup poll</a>,
+          only 32% of Americans have a "great deal" or "fair amount" of trust in mass media.
+          This erosion of trust suggests that the public senses manipulation but lacks the
+          tools to identify it precisely. The result is a lose-lose: people are either
+          deceived by misleading framing they cannot detect, or they dismiss all media as
+          untrustworthy — an overcorrection that accelerates polarization and makes
+          evidence-based public discourse nearly impossible.
+        </p>
+        <p>
+          [APP NAME] addresses this gap by giving ordinary users the same analytical tools
+          that trained media critics use — automatically, in real time, and without
+          requiring expertise. This invention is important because the capacity to recognize
+          manipulation is not evenly distributed, and that inequality in media literacy has
+          measurable consequences for how people vote, how they respond to public health
+          guidance, and how they understand their world.
+        </p>
+
+        <!-- FINDING 1 -->
+        <h2>Supporting Research</h2>
+        <div class="finding-label">Finding 1</div>
+        <h2 style="margin-top:0.5rem; color: var(--text); font-size:1.2rem;">
+          Online misinformation and deceptive presentation are widespread and growing problems
+        </h2>
+        <p>
+          A comprehensive survey by
+          <a href="https://www.security.org/digital-security/misinformation-disinformation-survey/" target="_blank">Security.org (2024)</a>
+          found that the vast majority of Americans report regularly encountering misinformation
+          online, and a significant portion report being unable to identify it when they do.
+          Crucially, the study distinguishes between outright disinformation (deliberately false
+          content) and misinformation — inaccurate or misleading content spread regardless of
+          intent. Misleading <em>presentation</em> of true facts falls squarely in the latter
+          category and is far more common, precisely because it is harder to challenge.
+        </p>
+        <p>
+          Deceptive data visualizations are a particularly under-studied vector. Research in
+          data journalism and information design has catalogued dozens of chart manipulation
+          techniques — from truncated y-axes to dual-axis graphs that imply false correlations —
+          that routinely appear in mainstream media without any correction or notice.
+          [APP NAME]'s chart analysis module specifically targets this gap.
+        </p>
+
+        <!-- FINDING 2 -->
+        <div class="finding-label" style="margin-top:2rem;">Finding 2</div>
+        <h2 style="margin-top:0.5rem; color: var(--text); font-size:1.2rem;">
+          The market for AI-powered media literacy tools is large, underserved, and commercially viable
+        </h2>
+        <p>
+          According to
+          <a href="https://www.statista.com/statistics/325645/usa-number-of-internet-users/" target="_blank">Statista</a>,
+          there are approximately 331 million internet users in the United States in 2026.
+          Even capturing 1% of that audience as active users — a conservative benchmark for
+          a niche tool — produces a user base of 3.3 million people. At a modest $1 per user
+          per year in ad revenue (industry standard for content-adjacent apps), that floor
+          generates over $3 million annually without a single paid subscriber.
+        </p>
+        <p>
+          The revenue ceiling is substantially higher. Data from
+          <a href="https://reacheffect.com/blog/how-much-can-an-app-make-from-advertising/" target="_blank">ReachEffect</a>
+          shows that subscription app users generate on average 4.6 times the revenue of
+          ad-only users. A premium tier priced at $5/month — positioned as a civic tool
+          comparable to a news subscription — could push annual revenue to $13–14 million
+          if just 10–15% of active users convert. No direct competitor in the real-time
+          manipulation-detection space currently exists at consumer scale, meaning [APP NAME]
+          has an opportunity to define the category.
+        </p>
+
+        <h2>Brief Description of the Invention</h2>
+        <p>
+          [APP NAME] is a browser extension and mobile application that uses artificial
+          intelligence to analyze news articles, data visualizations, and video content in
+          real time, flagging patterns of misrepresentation and categorizing them by type.
+          Unlike conventional fact-checkers, which verify factual claims against databases
+          of known falsehoods, [APP NAME] evaluates the <em>structural integrity</em> of how
+          information is presented — detecting manipulated chart baselines, decontextualized
+          statistics, emotionally loaded framing paired with thin evidence, and missing
+          comparative data.
+        </p>
+        <p>
+          Key features include: real-time scanning with no user input required; a
+          categorized flag system that explains <em>how</em> and <em>why</em> content may be
+          misleading; a chart integrity module using computer vision; video transcript
+          analysis; and a free tier with an optional premium subscription. The system is
+          designed to be privacy-preserving, performing analysis on-device where possible
+          and never storing identifiable browsing data.
+        </p>
+
+        <h2>Policy Implications</h2>
+        <p>
+          Policymakers should recognize AI-powered media literacy tools as a complement —
+          not a replacement — for platform-level content moderation. Regulatory frameworks
+          should encourage transparency in AI flagging methodologies and mandate bias audits
+          for tools operating at scale. [APP NAME] demonstrates that the market can produce
+          consumer-grade media literacy technology, but government investment in public
+          education programs and potential subsidies for underserved communities could
+          dramatically expand access. Key regulatory challenges include defining "misleading
+          presentation" in a legally coherent way, avoiding chilling effects on legitimate
+          journalism, and ensuring algorithmic accountability.
+        </p>
+
+        <h2>Works Cited</h2>
+        <ul class="sources-list">
+          <li>
+            <a href="https://news.gallup.com/poll/510814/media-confidence-remains-historical-low.aspx" target="_blank">
+              Gallup (2024). "Media Confidence Remains at Historical Low." Gallup News.
+            </a>
+          </li>
+          <li>
+            <a href="https://www.security.org/digital-security/misinformation-disinformation-survey/" target="_blank">
+              Security.org (2024). "Misinformation and Disinformation Survey."
+            </a>
+          </li>
+          <li>
+            <a href="https://www.statista.com/statistics/325645/usa-number-of-internet-users/" target="_blank">
+              Statista (2026). "Number of internet users in the United States."
+            </a>
+          </li>
+          <li>
+            <a href="https://reacheffect.com/blog/how-much-can-an-app-make-from-advertising/" target="_blank">
+              ReachEffect. "How Much Can an App Make from Advertising?"
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 [APP NAME] — Anish Velagapudi, Kenan Snider, Baylee Varnell, Gina Byon</p>
+  </footer>
+
+</body>
+</html>
